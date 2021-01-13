@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+	<TargetFrameworks>net5.0;netcoreapp3.1</TargetFrameworks>
+    <Description>Health check for Badget SMS API connectivity and low credit</Description>
+    <Authors>Vassilis Panos</Authors>
+    <Copyright>Copyright © 2021 Vassilis Panos</Copyright>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageTags>HealthCheck;BudgetSMS</PackageTags>
+    <RepositoryUrl>https://github.com/vassilis-panos/AspNetCore.HealthChecks</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/vassilis-panos/AspNetCore.HealthChecks</PackageProjectUrl>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <PackageId>AspNetCore.HealthChecks.BudgetSms</PackageId>
+    <AssemblyName>AspNetCore.HealthChecks.BudgetSms</AssemblyName>
+    <RootNamespace>AspNetCore.HealthChecks.BudgetSms</RootNamespace>
+    <Product>AspNetCore.HealthChecks.BudgetSms</Product>
+    <Company />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.WebUtilities" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks" Version="5.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions" Version="5.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="5.0.0" />
+  </ItemGroup>
+</Project>
