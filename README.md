@@ -21,12 +21,12 @@ public class Startup
     {
         services.AddHealthChecks()
             .AddBudgetSms(options =>
-			{
-				options.Username = Configuration["BudgetSms:Username"];
-				options.UserId = Configuration["BudgetSms:UserId"];
-				options.Handle = Configuration["BudgetSms:Handle"];
-				options.MinimumCredit = 30;
-			});
+	    {
+	    	options.Username = Configuration["BudgetSms:Username"];
+		options.UserId = Configuration["BudgetSms:UserId"];
+		options.Handle = Configuration["BudgetSms:Handle"];
+		options.MinimumCredit = 30;
+	    });
     }
 }
 ```
