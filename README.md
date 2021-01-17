@@ -1,3 +1,30 @@
+# AspNetCore.HealthChecks.SystemMemory
+Cross-platform system memory health check
+
+## Installation
+
+```
+> dotnet add package AspNetCore.HealthChecks.SystemMemory
+```
+
+```
+PM> Install-Package AspNetCore.HealthChecks.SystemMemory
+```
+## Usage
+
+```csharp
+
+public class Startup
+{
+    public void ConfigureServices(IServiceCollection services)
+    {
+        services.AddHealthChecks()
+            .AddSystemMemory(500);
+    }
+}
+```
+
+
 # AspNetCore.HealthChecks.BudgetSms
 .NET Health check for [Badget SMS](https://www.budgetsms.net/) API connectivity and low credit
 
