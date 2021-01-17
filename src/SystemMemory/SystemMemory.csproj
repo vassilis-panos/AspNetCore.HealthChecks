@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+	<TargetFrameworks>net5.0;netcoreapp3.1</TargetFrameworks>
+    <Description>Cross platform memory health check</Description>
+    <Authors>Vassilis Panos</Authors>
+    <Copyright>Copyright © 2021 Vassilis Panos</Copyright>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageTags>HealthCheck;Memory</PackageTags>
+    <RepositoryUrl>https://github.com/vassilis-panos/AspNetCore.HealthChecks</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/vassilis-panos/AspNetCore.HealthChecks</PackageProjectUrl>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <PackageId>AspNetCore.HealthChecks.SystemMemory</PackageId>
+    <AssemblyName>AspNetCore.HealthChecks.SystemMemory</AssemblyName>
+    <RootNamespace>AspNetCore.HealthChecks.SystemMemory</RootNamespace>
+    <Product>AspNetCore.HealthChecks.SystemMemory</Product>
+    <Company />
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks" Version="5.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions" Version="5.0.2" />
+  </ItemGroup>
+</Project>

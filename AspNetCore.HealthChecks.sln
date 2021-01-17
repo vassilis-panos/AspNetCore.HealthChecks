@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BudgetSms", "src\BudgetSms\BudgetSms.csproj", "{0A6EE640-B4D4-43F7-BC4F-8C2B1A6CF949}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SystemMemory", "src\SystemMemory\SystemMemory.csproj", "{B57D4FDE-2BB6-47DD-A029-6FB706A0935E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,18 @@ Global
 		{0A6EE640-B4D4-43F7-BC4F-8C2B1A6CF949}.Release|x64.Build.0 = Release|Any CPU
 		{0A6EE640-B4D4-43F7-BC4F-8C2B1A6CF949}.Release|x86.ActiveCfg = Release|Any CPU
 		{0A6EE640-B4D4-43F7-BC4F-8C2B1A6CF949}.Release|x86.Build.0 = Release|Any CPU
+		{B57D4FDE-2BB6-47DD-A029-6FB706A0935E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B57D4FDE-2BB6-47DD-A029-6FB706A0935E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B57D4FDE-2BB6-47DD-A029-6FB706A0935E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B57D4FDE-2BB6-47DD-A029-6FB706A0935E}.Debug|x64.Build.0 = Debug|Any CPU
+		{B57D4FDE-2BB6-47DD-A029-6FB706A0935E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B57D4FDE-2BB6-47DD-A029-6FB706A0935E}.Debug|x86.Build.0 = Debug|Any CPU
+		{B57D4FDE-2BB6-47DD-A029-6FB706A0935E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B57D4FDE-2BB6-47DD-A029-6FB706A0935E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B57D4FDE-2BB6-47DD-A029-6FB706A0935E}.Release|x64.ActiveCfg = Release|Any CPU
+		{B57D4FDE-2BB6-47DD-A029-6FB706A0935E}.Release|x64.Build.0 = Release|Any CPU
+		{B57D4FDE-2BB6-47DD-A029-6FB706A0935E}.Release|x86.ActiveCfg = Release|Any CPU
+		{B57D4FDE-2BB6-47DD-A029-6FB706A0935E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
